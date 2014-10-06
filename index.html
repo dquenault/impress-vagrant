@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>Vagrant - Lunch and Learn #2</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="css/font.css"/>
+    <link rel="stylesheet" href="css/presentation.css"/>
+    <link rel="stylesheet" href="css/sunburst.css"/>
+</head>
+<body>
+<div id="impress">
+
+    <div id="header" class="step" data-x="0" data-y="0">
+        <H1>Lunch and Learn #2</H1>
+        <p><img class="title" src="img/vagrant-logo.small.png"></p>
+        <p>Development environments made easy!</p>
+        <p class="small">David Quenault</p>
+    </div>
+
+    <div id="vagrant" class="step" data-x="1500" data-y="0">
+        <p>Create and configure lightweight, reproducible,<BR> 
+        and <span class="up">portable</span> development environments.</p>
+            <pre><code><span class="keyword">$</span> vagrant <b class="scaling">up</b></code></pre>
+    </div>
+    
+    <div id="install" class="step" data-x="1000" data-y="-1000" data-rotate="-90">
+        <p>Ruby based, installers for Mac, Windows and Linux</p>
+        <pre class="small"><code><span class="keyword">$</span> sudo apt-get install rubygems ruby1.9.1-dev virtualbox-4.2
+<span class="keyword">$</span> sudo gem install vagrant
+        </code></pre>
+        <br>
+        <p><img class="icon" src="img/icon_mac.png">
+        <img class="icon" src="img/icon_debian.png">
+        <img class="icon" src="img/icon_windows.png"></p>
+    </div>
+
+    <div id="providers" class="step" data-y="-1000", data-rotate="90">
+        <p>VM's - Bring on the providers!</p>
+        <p class="list small color1">Virtual box <img src="img/virtualbox-2.png"></p>
+        <p class="list small color2">VMWare <img src="img/vmware.png"></p>
+        <p class="list small color3">Docker <img src="img/docker.png"></p>
+    </div>
+
+    <div id="cloud" class="step" data-x="-1000" data-y="-1000" data-rotate="90">
+        <p>Cloud... yes!</p><br>
+        <p><img src="img/AWS.png"></p>
+    </div>
+
+    <div id="provision" class="step" data-x="-2000" data-y="-1000">
+        <h1>Software Provisioning?</h1>
+        <span class="puppet">Puppet<br><img src="img/puppet.png" width="60px"></span>
+        <span class="shell">Shell <br>scripting<br><img src="img/bash_logo.png" width="50px"></span>
+        <span class="ansible">Ansible<br><img src="img/ansible.png" width="120px"></span>
+        <span class="chef">Chef<br><img src="img/chef.png" width="80px" height="auto"></span>
+    </div>
+        
+    <div id="example" class="step" data-x="-2000" date-rotate="-90" data-scale="0.5">
+        <h1>Enough slideware!</h1><br>
+        <pre><code>// Let’s do some examples…
+<span class="keyword">$</span> </code></pre>
+    </div>
+
+    <div id="multi" class="step" data-x="-2000" data-y="500" data-scale="0.5"> 
+        <h1>Multi-boxes? No problem</h1>
+    </div>
+
+    <div id="realworld" class="step" data-x="-2000" data-y="1000" data-scale="1">
+        <h1>A real life example...</h1>
+    </div>
+
+    <div id="links" class="step" data-x="0" data-y="1000">
+        <h1>Keen for more?</h1>
+        <p>Links</p>
+        <ul>
+            <li><a href="https://www.vagrantup.com">https://www.vagrantup.com - Vagrant site</a></li>
+            <li><a href="https://vagrantcloud.com">https://vagrantcloud.com - Boxes</a></li>
+            <li><a href="https://docs.vagrantup.com/v2/">https://docs.vagrantup.com/v2/ - Documentation</a></li>
+            <li><a href="https://github.com/mitchellh/vagrant-aws">https://github.com/mitchellh/vagrant-aws - Vagrant AWS Plugin</a></li>
+            <li>
+        </ul>
+    </div>
+
+    <div id="finalthoughts" class="step" data-x="1000" data-y="1000" data-rotate="90">
+      <h1>Final Thoughts</h1>
+      <br>
+      <p>Share your vagrant files today <span class="highlight">:)</span></p>
+      <p>Look out for the next lunch and learn<BR> session on Redis</p>
+    </div>
+
+    <div id="step-overview" class="step" data-x="0" data-y="0" data-scale="5">
+        <h1>Thank you!</h1>
+        <P>Click as <span class="highlight">slide</span> to jump</p>
+    </div>
+
+    <div id="loveimpress" class="step" data-x="-3000" data-y="-800" data-rotate-x="30" data-rotate-y="-60" data-rotate-z="90" data-scale="4">
+        <div>
+        <h1>I <span class="heart">♥</span> impress.js</h1>
+        <p>Liked this presentation?</p>
+        <p>Go check out <a href="http://bartaz.github.io/impress.js">impress.js</a>!</p>
+    </div>
+</div>
+
+
+    <div class="no-support-message">
+        <div class='fallback-message'>
+            <p>
+                Your browser
+                <b>doesn't support the features required</b>
+                by impress.js, so you are presented with a simplified version of this presentation.
+            </p>
+            <p>
+                For the best experience please use the latest
+                <b>Chrome</b>
+                or
+                <b>Safari</b>
+                browser. Firefox 10 and Internet Explorer 10
+                <i>should</i>
+                also handle it.
+            </p>
+        </div>
+    </div>
+
+
+<script type="text/javascript" src="js/impress.js"></script>
+<script type="text/javascript">
+    impress().init();
+</script>
+</body>
+</html>
